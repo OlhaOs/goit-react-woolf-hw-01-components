@@ -1,5 +1,5 @@
 import './statistics.css';
-import getRandomHexColor from './getRandomColor';
+import getRandomHexColor from '../utils/getRandomColor';
 const Statistics = ({ stats, title }) => {
   return (
     <section className="statistics">

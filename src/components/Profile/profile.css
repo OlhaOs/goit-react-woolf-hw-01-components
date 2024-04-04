@@ -52,9 +52,10 @@ li {
   border-left: 1px solid rgb(206, 206, 206);
   border-right: 1px solid rgb(206, 206, 206);
 }
-.label {
-  color: rgb(178, 176, 176);
+.stats .label {
+  color: rgb(161, 161, 161);
 }
 .quantity {
+  margin-top: 10px;
   font-weight: 700;
 }
