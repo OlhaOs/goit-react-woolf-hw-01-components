@@ -22,6 +22,7 @@
 .statslist {
   display: flex;
   border: none;
+  outline: none;
 }
 .label {
   color: rgb(255, 255, 255, 0.8);
