@@ -2,10 +2,15 @@ body {
   background-color: rgb(227, 226, 226);
   height: 100vh;
 }
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 .profile {
   width: 300px;
   height: 100%;
-  margin: 100px auto;
+  margin: 50px auto;
   background-color: white;
   border-radius: 4px;
   border: 1px solid rgb(206, 206, 206);
@@ -19,6 +24,7 @@ body {
   border-radius: 50%;
   border: 1px solid rgb(206, 206, 206);
 }
+
 .description {
   text-align: center;
 }
@@ -31,16 +37,15 @@ body {
 .location {
   color: rgb(178, 176, 176);
 }
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+.stats {
   display: flex;
 
   border: 1px solid rgb(206, 206, 206);
   background-color: rgb(244, 243, 243);
 }
-li {
+
+.statsItem {
   display: flex;
   flex-direction: column;
   flex-basis: calc(100% / 3);
@@ -52,7 +57,7 @@ li {
   border-left: 1px solid rgb(206, 206, 206);
   border-right: 1px solid rgb(206, 206, 206);
 }
-.stats .label {
+.label {
   color: rgb(161, 161, 161);
 }
 .quantity {

@@ -4,6 +4,14 @@
   margin-right: auto;
   width: 500px;
 }
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-basis: calc(100% / 3);
+  align-items: center;
+
+  padding: 20px;
+}
 .title {
   padding: 25px;
   text-transform: uppercase;
@@ -11,7 +19,8 @@
   color: rgb(109, 109, 109);
   margin: 0;
 }
-.stat-list {
+.statslist {
+  display: flex;
   border: none;
 }
 .label {
